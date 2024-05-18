@@ -27,11 +27,11 @@ const ProjectCarousel = () => (
   <>
     <div className="product__highlights">
       <h1 className="product__highlights-heading">Product Highlights</h1>
-      <p>
+      {/* <p>
         Product Launch Commenced on 5th March at 12PM...
-      </p>
+      </p> */}
     </div>
-    {/* <Carousel autoPlay>
+    <Carousel autoPlay>
       <div>
         <img className="carousel__img" alt="" src={index1Img} />
         <p className="legend" id="format">
@@ -146,7 +146,7 @@ const ProjectCarousel = () => (
           <b>Admin Panel - Admin can manage users transfer credit requests</b>
         </p>
       </div>
-    </Carousel> */}
+    </Carousel>
   </>
 );
 
