@@ -1,0 +1,67 @@
+.headerImage {
+  position: relative;
+}
+
+.header__image {
+  width: 100%;
+  height: 65vh;
+  object-fit: cover;
+  z-index: 1;
+  padding-top: 0px;
+}
+
+.motto__container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(245, 245, 245, 0.85);
+  border-left: 10px solid var(--primary-color);
+  max-width: 80%;
+  font-family: 'Rubik', sans-serif;
+}
+
+.motto {
+  font-family: inherit;
+  font-style: italic;
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
+@media screen and (max-width: 414px) {
+  .header__image {
+    height: 35vh;
+  }
+
+  .motto__container {
+    padding: 15px;
+    width: 100%;
+  }
+
+  .motto {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 768px) {
+  .header__image {
+    height: 45vh;
+  }
+
+  .motto__container {
+    padding: 15px;
+    width: 100%;
+  }
+
+  .motto {
+    font-size: 1.25rem;
+  }
+}
